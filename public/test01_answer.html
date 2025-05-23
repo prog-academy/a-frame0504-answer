@@ -7,6 +7,7 @@
   </head>
   <body>
     <a-scene>
+      <!-- example radius-bottom="1" -> "0.5" -->
       <a-cone
         position="-1 0.5 -3"
         height="1"
@@ -14,11 +15,13 @@
         radius-top="0.01"
         color="#4CC3D9"
       ></a-cone>
+      <!-- example radius="1" -> "0.5" -->
       <a-octahedron
         position="1 1 -3"
         radius="0.5"
         color="#FFC65D"
       ></a-octahedron>
+      <!-- example p="2" -> "1" -->
       <a-torus-knot
         position="-4 1 -4"
         radius="1"
@@ -27,6 +30,7 @@
         q="3"
         color="#B96FD3"
       ></a-torus-knot>
+      <!-- example radius-inner="0.8" -> "0.5" -->
       <a-ring
         position="0 1.25 -4"
         radius="1"
@@ -34,6 +38,7 @@
         radius-outer="1.2"
         color="#EF2D5E"
       ></a-ring>
+      <!-- example arc="360" -> "240" -->
       <a-torus
         position="4 1 -4"
         radius="1"
